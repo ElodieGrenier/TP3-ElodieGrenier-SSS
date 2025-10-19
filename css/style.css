@@ -29,9 +29,11 @@ body {
     color: var(--primary-color-dark);
     margin-right: 50px;
     font-size: 1.5rem;
-  
 }
 
+.nav-link{ 
+color: var(--primary-color-dark);
+}
 .nav-link:hover {
     color: var(--bs-white);
     background-color: var(--primary-color-black);
