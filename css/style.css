@@ -1,41 +1,40 @@
-
 :root {
     /* Palette de couleur */
     --primary-color-light: rgba(226, 181, 154);
-    --primary-color-black: rgb(149, 124, 98);
-    --primary-color-dark: rgb(183, 116, 102); 
-    --primary-color-danger: rgb(255, 225, 175) ; 
-
+    --primary-color-black: rgb(0, 0, 0);
+    --primary-color-dark: rgb(183, 116, 102);
+    --primary-color-danger: rgb(255, 225, 175);
+    --bg-link: rgb(122, 78, 85);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
-   
 
-    /* Display font sizes (use these instead of a SASS map) */
-
+}
 
 body {
     font-family: var(--bs-body-font-family);
     background-color: var(--primary-color-light);
     color: var(--primary-color-black);
- 
+
 }
-.banniere  {
+
+.banniere {
     display: inline-block;
     width: 100%;
     background-color: var(--primary-color-dark);
     vertical-align: middle;
 }
-.banniere_menu{
+
+.banniere_menu {
     color: var(--primary-color-dark);
     margin-right: 50px;
     font-size: 1.5rem;
 }
 
-.nav-link{ 
-color: var(--primary-color-dark);
+.nav-link {
+    color: var(--primary-color-dark);
 }
+
 .nav-link:hover {
     color: var(--bs-white);
-    background-color: var(--primary-color-black);
-    border-radius: 0.25rem;
+    background-color: var(--bg-link);
+    border-radius: 0.5rem;
 }
