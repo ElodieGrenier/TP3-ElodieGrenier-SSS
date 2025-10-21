@@ -42,3 +42,7 @@ body {
     border-radius: 0.25rem;
 }
 
+.style-texte-gros{
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
